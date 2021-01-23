@@ -16,24 +16,14 @@ void tribonacci(vector<int> signature, int n){
 		/*cout<<sum<<endl;*/result.push_back(sum);
 		signature.push_back(sum);signature.erase(signature.begin());
 	}
-	if(n == 2){
-		signature.pop_back();
-		for(int i=0;i<signature.size();++i)
-			cout<<result[i]<<" ";
-	}
-	if(n == 1){
-		signature.pop_back();signature.pop_back();
-		for(int i=0;i<signature.size();++i)
-			cout<<signature[i];
-	}
-	if(n == 0){
-		vector<int> result = {};
-	}
-	if(n >=3){
-		
-		for(int i=0;i<result.size()-3;++i)
+	if(n >0){
+		for(int i=0;i<3;++i)
+			signature.pop_back();
+		for(int i=0;i<result.size();++i)
 			cout<<result[i]<<" ";
 		cout<<endl;
+	}else {
+		vector<int> result = {};
 	}
 }
 		
