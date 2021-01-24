@@ -27,6 +27,7 @@ void function(const vector<int> &vec){
 
 
 int main(){
+	vector<pair<int,int>> x = {2,4,1,3,5,7};
 	vector<pair<int,int>> function(const vector<int> x);
 	return 0;
 }
