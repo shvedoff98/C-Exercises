@@ -29,7 +29,7 @@ vector <vector<int>> multiplication_table(int n)
     }
 
 
-    for (const auto it : result)
+    /*for (const auto it : result)
     {
         for(const auto jt : it)
         {
@@ -39,7 +39,7 @@ vector <vector<int>> multiplication_table(int n)
         cout << "\n";
     }
 
-    return result;
+    return result;*/
 }
 
 int main()
