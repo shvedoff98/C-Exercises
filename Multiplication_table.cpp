@@ -40,6 +40,9 @@ vector <vector<int>> multiplication_table(int n)
     return result;*/
 }
 
+
+//TEST CODE TO CHECK THE FUNCTION WORKING
+
 int main()
 {
     int test = 5;
