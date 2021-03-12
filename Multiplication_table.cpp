@@ -25,19 +25,6 @@ vector <vector<int>> multiplication_table(int n)
         count ++;
 
     }
-
-
-    /*for (const auto it : result)
-    {
-        for(const auto jt : it)
-        {
-            cout << "  " << jt << "  ";
-        }
-        
-        cout << "\n";
-    }
-
-    return result;*/
 }
 
 
