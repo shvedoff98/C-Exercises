@@ -1,3 +1,6 @@
+// TIME COMPLEXITY IS O(N^2)
+
+
 #include <cstring>
 #include <string>
 #include <iostream>
