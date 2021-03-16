@@ -13,7 +13,6 @@ int findDeletedNumber(list<int> startingList, list<int> mixedList)
         {
             if (x == y){compare.remove(x);}
         }
-        cout << "\n";
     }
     return compare.front();
 }
