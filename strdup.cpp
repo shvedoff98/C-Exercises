@@ -1,6 +1,6 @@
 //Write function which copies the C char array
 //into dynamically allocated char array
-
+#include <iostream>
 using namespace std;
 
 char* strdup(const char* test)
