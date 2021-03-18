@@ -12,6 +12,8 @@ bool hashUniqueChars(string s)
     }
     return true;
 }
+
+// Drive code 
 int main(int argc,char* argv[])
 {
     cout << hashUniqueChars("") << "\n";
