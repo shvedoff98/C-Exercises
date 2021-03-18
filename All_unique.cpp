@@ -1,5 +1,4 @@
 #include <string>
-#include <iostream>
 using namespace std;
 
 bool hashUniqueChars(string s)
@@ -16,6 +15,6 @@ bool hashUniqueChars(string s)
 // Drive code 
 int main(int argc,char* argv[])
 {
-    cout << hashUniqueChars("") << "\n";
+    hashUniqueChars("") << "\n";
     return 0;
 }
