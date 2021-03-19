@@ -18,7 +18,11 @@ bool is_palindrome(const string& s)
 
 int main(int argc, char* argv[])
 {
-    cout << is_palindrome("wiiiiiiiuiiiiiiiw") << "\n";
-    return 0;
+    for (string s; cin >> s;)
+    {
+        cout << s << " is";
+        if(!is_palindrome) cout << " not";
+        cout << " a palindrome." << "\n";
+    }
 }
 
