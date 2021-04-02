@@ -13,6 +13,7 @@ vector <vector<int>> pyramid(size_t n)
 
 int main(int argc, char* argv[])
 {
+    cout << "Enter the number\n";
     size_t n; cin >> n;
     vector <vector<int>> result = pyramid(n);
     vector<vector<int>>::iterator i;
