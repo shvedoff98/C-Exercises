@@ -8,7 +8,7 @@ vector<string> filter_long_words(const string& sentence, int n)
     vector <string> res;
     istringstream ss {sentence};
     string temp;
-    while (ss >> temp) { if (temp.size() > 4) res.push_back(temp); }
+    while (ss >> temp) { if (temp.size() > n) res.push_back(temp); }
     return res;
 }
 
