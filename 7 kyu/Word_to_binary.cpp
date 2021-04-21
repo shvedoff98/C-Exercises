@@ -1,5 +1,4 @@
 #include <vector>
-#include <bitset>
 #include <iostream>
 #include <string>
 using namespace std;
@@ -7,7 +6,6 @@ using namespace std;
 string to_bin(int n)
 {
     string res;
-
     do {
         res += to_string(n % 2);
     } while (n /= 2);
@@ -19,7 +17,6 @@ string to_bin(int n)
     {
         swap (res[i], res[res.size()-i-1]);
     }
-
     return res;
 }
 
@@ -27,7 +24,6 @@ vector <string> word_to_bin(string word)
 {
     vector <string> bin;
     for (auto& x : word) { bin.push_back(to_bin(int(x)));}
-    cout << "\n";
     return bin;
 }
 
