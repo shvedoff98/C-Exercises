@@ -1,6 +1,5 @@
 #include <string>
 #include <iostream>
-#include <algorithm>
 
 template <typename T>
 void swap (T& a, T&b)
@@ -13,7 +12,7 @@ std::string reverse_str(std::string& str)
     int sz = str.size();
     for (int i=0; i<sz/2; ++i)
     {
-        swap(str[i], str[sz-i-1]);
+        ::swap(str[i], str[sz-i-1]);
     }
     return str;
 }
