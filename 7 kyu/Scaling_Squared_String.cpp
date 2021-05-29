@@ -1,10 +1,6 @@
 #include <iostream>
-#include <cstring>
-#include <iterator>
 #include <string>
-#include <vector>
 #include <sstream>
-#include <algorithm>
 
 class ScalingSqStrings
 {
