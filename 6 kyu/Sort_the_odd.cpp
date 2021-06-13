@@ -1,6 +1,5 @@
 #include <iostream>
 #include <vector>
-#include <exception>
 #include <algorithm>
 
 class Kata
